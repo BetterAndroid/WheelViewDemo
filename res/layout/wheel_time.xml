@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    android:gravity="bottom"
+    android:background="@android:color/transparent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/sel_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginLeft="2dp"
+        android:text="选择城市"
+        android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="245dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:orientation="horizontal" >
+
+            <com.lee.wheel.widget.WheelView
+                android:id="@+id/wheel1"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/img_01"
+                android:layout_weight="1.0" />
+
+            <com.lee.wheel.widget.WheelView
+                android:id="@+id/wheel2"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/img_01"
+                android:layout_weight="1.0" />
+
+            <com.lee.wheel.widget.WheelView
+                android:id="@+id/wheel3"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/img_01"
+                android:layout_weight="1.0" />
+        </LinearLayout>
+
+</LinearLayout>
