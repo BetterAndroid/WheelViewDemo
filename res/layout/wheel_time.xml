@@ -23,7 +23,7 @@
             android:padding="10dp"
             android:orientation="horizontal" >
 
-            <com.lee.wheel.widget.WheelView
+            <com.betterandroid.wheel.widget.WheelView
                 android:id="@+id/wheel1"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
@@ -31,7 +31,7 @@
                 android:background="@drawable/img_01"
                 android:layout_weight="1.0" />
 
-            <com.lee.wheel.widget.WheelView
+            <com.betterandroid.wheel.widget.WheelView
                 android:id="@+id/wheel2"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
@@ -39,7 +39,7 @@
                 android:background="@drawable/img_01"
                 android:layout_weight="1.0" />
 
-            <com.lee.wheel.widget.WheelView
+            <com.betterandroid.wheel.widget.WheelView
                 android:id="@+id/wheel3"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
