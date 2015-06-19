@@ -28,7 +28,6 @@
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="2dp"
-                android:background="@drawable/img_01"
                 android:layout_weight="1.0" />
 
             <com.betterandroid.wheel.widget.WheelView
@@ -36,7 +35,6 @@
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="2dp"
-                android:background="@drawable/img_01"
                 android:layout_weight="1.0" />
 
             <com.betterandroid.wheel.widget.WheelView
@@ -44,7 +42,6 @@
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="2dp"
-                android:background="@drawable/img_01"
                 android:layout_weight="1.0" />
         </LinearLayout>
 

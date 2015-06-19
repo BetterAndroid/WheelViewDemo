@@ -96,8 +96,7 @@ public class WheelView extends TosGallery {
         this.mBottomShadow = new GradientDrawable(Orientation.BOTTOM_TOP, SHADOWS_COLORS);
 
         // The default background.
-//        this.setBackgroundResource(R.drawable.wheel_bg);
-
+        this.setBackgroundResource(R.drawable.wheel_bg);
         // Disable the sound effect default.
         this.setSoundEffectsEnabled(true);
     }
@@ -114,8 +113,8 @@ public class WheelView extends TosGallery {
         // +1, Draw the center rectangle.
         // +2, Draw the shadows on the top and bottom.
 
-//        drawCenterRect(canvas);
-//        drawShadows(canvas);
+        drawCenterRect(canvas);
+        drawShadows(canvas);
     }
 
     /**
@@ -126,7 +125,6 @@ public class WheelView extends TosGallery {
         if (TosGallery.HORIZONTAL == orientation) {
             throw new IllegalArgumentException("The orientation must be VERTICAL");
         }
-
         super.setOrientation(orientation);
     }
 

@@ -30,7 +30,6 @@ public class WheelTextView extends TextView {
                 TypedValue.COMPLEX_UNIT_SP, size, r.getDisplayMetrics());
         if (rawSize != getPaint().getTextSize()) {
             getPaint().setTextSize(rawSize);
-
             if (getLayout() != null) {
                 invalidate();
             }
